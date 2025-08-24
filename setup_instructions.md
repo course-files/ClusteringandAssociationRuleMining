@@ -20,6 +20,8 @@
 
 2. Create and activate a **virtual environment** to keep your project dependencies isolated from the system Python packages.
 
+   **Part A**
+
    - A virtual environment is like a sandbox for Python projects.
      - It is a self-contained folder that has:
        - Its own Python interpreter (a copy of the Python executable).
@@ -45,6 +47,8 @@
     ```shell
     python -m venv .venv
     ```
+
+   **Part B**
 
    - To activate the virtual environment, use the following commands:
        - For Windows (via Git Bash) - **Git Bash is the preferred option for all the labs**:
@@ -84,6 +88,17 @@
          ```shell
          which python
          ```
+
+      **Part C**
+
+   - When you create and activate a virtual environment (.venv) in your terminal, you are telling your shell to use that Python interpreter for the current session. PyCharm, however, does not automatically "see" what you did in the shell. It keeps its own record of interpreters in its project settings.
+   - That is why PyCharm still asking you to configure one. To PyCharm, a .venv folder is just another directory until you explicitly say, “this is the interpreter I want to use.”
+   - Do the following to set the Python Interpret if you are using the **PyCharm** IDE:
+     - Go to File > Settings > Python > Interpreter.
+     - Click Add Interpreter → Add Local Interpreter → Select Existing
+     - Select Python as the Type
+     - For the Python path: Browse to your `.venv/bin/python` (on **Linux/Mac**) or `.venv\Scripts\python.exe` (on **Windows**).
+     - Select it and apply.
 
 3. Install the packages from **requirements.txt**
     - Once the virtual environment is active, run:

@@ -31,11 +31,11 @@
 3 directories, 12 files
 ```
 
-## Setup
+## Setup Instructions
 
 - [Setup Instructions](setup_instructions.md)
 
-## Lab Manuals
+## Lab Manual
 
 Refer to the files below for more details:
 
@@ -43,6 +43,6 @@ Refer to the files below for more details:
 2. [Association Rule Learning using Apriori and a simple dataset](7a_association_rule_learning.ipynb)
 3. [Association Rule Learning using Apriori and a real-world dataset](7b_association_rule_learning.ipynb)
 
-## Lab Submissions
+## Lab Submissions Instructions
 
 - [Business Analysis and Recommender System](7b_association_rule_learning.ipynb)
