@@ -20,10 +20,10 @@
 
 2. Create and activate a **virtual environment** to keep your project dependencies isolated from the system Python packages.
 
-   - A virtual environment is like a sandbox for Python projects. 
+   - A virtual environment is like a sandbox for Python projects.
      - It is a self-contained folder that has:
-       - Its own Python interpreter (a copy of the Python executable). 
-       - Its own set of installed packages (separate from the global system). 
+       - Its own Python interpreter (a copy of the Python executable).
+       - Its own set of installed packages (separate from the global system).
      - This means each project can have the exact tools and package versions it needs, without interfering with other projects or the system Python.
 
    - Importance of using a virtual environment:
@@ -35,9 +35,9 @@
      - Keeps your global Python installation uncluttered. This avoids admin headaches (especially on shared machines or servers).
 
    - When you run `python -m venv .venv`, Python copies the interpreter into `.venv/`
-   - It sets up special `bin/` (Linux/macOS) or `Scripts/` (Windows) folders with activation scripts. 
+   - It sets up special `bin/` (Linux/macOS) or `Scripts/` (Windows) folders with activation scripts.
    - When you activate the virtual environment (next step), your shell temporarily changes its PATH so that:
-     - `python` points to `.venv/bin/python` (or `.venv\Scripts\python.exe`). 
+     - `python` points to `.venv/bin/python` (or `.venv\Scripts\python.exe`).
      - pip installs packages into `.venv/lib/...` instead of the global site-packages.
 
    - In the root of your project folder, run the following command to create the virtual environment:
@@ -48,15 +48,19 @@
 
    - To activate the virtual environment, use the following commands:
        - For Windows (via Git Bash) - **Git Bash is the preferred option for all the labs**:
+
          ```shell
          source .venv/Scripts/activate
          ```
 
        - For Windows (via PowerShell):
+
          ```shell
          .venv\Scripts\Activate
          ```
+
          or
+
          ```shell
          .venv\Scripts\Activate.ps1
          ```
@@ -72,6 +76,7 @@
          ```shell
          source .venv/bin/activate
          ```
+
        - Confirm that the virtual environment is active by executing the following
      (**use Git Bash** if you are running it on Windows OS). It should show the
      name of the virtual environment (e.g., `.venv`) as part of the output.
@@ -79,12 +84,12 @@
          ```shell
          which python
          ```
-       
+
 3. Install the packages from **requirements.txt**
     - Once the virtual environment is active, run:
 
     ```shell
-    pip install -r requirements.txt`
+    pip install -r requirements.txt
     ```
 
     - `-r` tells **pip** to install all packages listed in the file.
@@ -109,10 +114,12 @@ tree -I ".venv|__pycache__|roughwork|lab_submission_ANSWERS"
 ```
 
 ## Creating the `requirements.txt` File
+
 - The `requirements.txt` file is used for listing packages
 (installable units via `pip`). Those packages usually contain the libraries you actually import and use.
 
 **Analogy:**
+
 - Packages → like the grocery bags you bring home from the store.
   - Example: You pip install `numpy` → you just bought a bag labeled **NumPy**.
 
@@ -123,13 +130,14 @@ tree -I ".venv|__pycache__|roughwork|lab_submission_ANSWERS"
 - And when you write Python code, you are actually cooking with the ingredients (libraries) inside those packages.
 
 **Option 1: Using `pipreqs`**
+
 - `pip install pipreqs` installs the tool that scans your project code and generates a `requirements.txt` file
 
     ```shell
     pip install pipreqs
     ```
 
-- `pipreqs . ` looks at your imports in the source code and generates a `requirements.txt` file that includes only those libraries.
+- `pipreqs .` looks at your imports in the source code and generates a `requirements.txt` file that includes only those libraries.
 - Advantage:
   - It is useful for creating a minimal `requirements.txt` file that only includes the libraries that are actually used in the code.
 - Disadvantages:
@@ -141,9 +149,12 @@ pipreqs . --encoding=utf8 --force --ignore .venv,__pycache__,roughwork
 ```
 
 **Option 2: Using `pip freeze`**
+
 - If you want the exact versions of the libraries, you can use `pip freeze > requirements.txt` after installing the libraries in the virtual environment. This will create a `requirements.txt` file with the exact versions of the libraries installed in the virtual environment.
 - Advantage:
+
   - It captures all installed packages in the virtual environment, including their versions.
+
 ```shell
 pip freeze > requirements.txt
 ```
