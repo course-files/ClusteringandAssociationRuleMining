@@ -2,7 +2,7 @@
 
 ## Project Setup Instructions
 
-### Install all the packages listed in `requirements.txt` in a virtual environment
+### Install all the dependencies listed in the `requirements` folder depending on the environment
 
 1. Confirm that you have Python installed. You can check this by running:
 
@@ -159,25 +159,25 @@ dependencies isolated from the system Python packages.
       - Staging environment:
 
         ```shell
-        pip install requirements/dev.txt -c requirements/constraints.txt
+        pip install -r requirements/dev.txt -c requirements/constraints.txt
         ```
 
       - Testing environment:
 
         ```shell
-        pip install requirements/dev.txt -c requirements/constraints.txt
+        pip install -r requirements/dev.txt -c requirements/constraints.txt
         ```
 
       - Colab environment:
 
         ```shell
-        pip install requirements/colab.txt
+        pip install -r requirements/colab.txt
         ```
 
       - Development environment:
 
         ```shell
-        pip install requirements/dev.txt -c requirements/constraints.txt
+        pip install -r requirements/dev.txt -c requirements/constraints.txt
         ```
 
 6. You can confirm the installed packages using:
