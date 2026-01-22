@@ -9,6 +9,14 @@
 | **Contact**      | aomondi@strathmore.edu                                                                                                                                                                                                                                                                                       |
 | **Note**         | The lecture contains both theory and practice.<br/>This notebook forms part of the practice.<br/>It is intended for educational purposes only.<br/>Recommended citation: [BibTex](https://raw.githubusercontent.com/course-files/ClusteringandAssociationRuleMining/refs/heads/main/RecommendedCitation.bib) |
 
+## Technology Stack
+
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40"/>
+</p>
+
 ## Repository Structure
 
 ```text
@@ -19,16 +27,32 @@
 ├── LICENSE
 ├── README.md
 ├── RecommendedCitation.bib
+├── assets
+│   └── images
+│       ├── activate_venv_pycharm.png
+│       └── activate_venv_vscode.png
 ├── data
 │   ├── groceries.csv
 │   ├── mall_customers.csv
 │   └── mall_customers_with_clusters.csv
+├── lab_submission
+│   └── start_here
+├── lab_submission_instructions.md
+├── requirements
+│   ├── base.txt
+│   ├── colab.txt
+│   ├── constraints.txt
+│   ├── dev.inferred.txt
+│   ├── dev.lock.txt
+│   ├── dev.txt
+│   └── prod.txt
 ├── requirements.txt
 ├── rule
-│   └── top_rules.csv
+│   ├── top_rules_7a.csv
+│   └── top_rules_7b.csv
 └── setup_instructions.md
 
-3 directories, 12 files
+7 directories, 24 files
 ```
 
 ## Setup Instructions
