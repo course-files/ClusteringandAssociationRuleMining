@@ -45,4 +45,4 @@ Refer to the files below for more details:
 
 ## Lab Submissions Instructions
 
-- [Business Analysis and Recommender System](7b_association_rule_learning.ipynb)
+- [lab_submission_instructions.md](lab_submission_instructions.md)
