@@ -48,6 +48,15 @@
 | **Name:**                                                                                          |             |
 | **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
 
+## Level of Difficulty and Video Demonstration
+
+Submit the link to a short video (not more than 4 minutes) demonstrating your solution.
+
+| **Key**                                       | **Value** |
+|:----------------------------------------------|:----------|
+| **Link to the video:**                        |           |
+| **Level of Difficulty Chosen:**              |           |
+
 ## Scenario
 
 Create new notebooks (**start from scratch**) and place them in the `lab_submission` folder for all parts of this assignment.
@@ -62,7 +71,7 @@ Create new notebooks (**start from scratch**) and place them in the `lab_submiss
 
 ## Part 2: Association Rule Mining
 
-### Instructions
+### Scenario
 
 You are working as a data analyst for a retail store. Using the association rules derived from the dataset (`cleaned_rules`), you are required to provide business recommendations and design a simple recommender function.
 
@@ -94,9 +103,9 @@ You are working as a data analyst for a retail store. Using the association rule
 
 - Enhance your recommender by creating another function named `dynamic_recommender_advanced(cart, rules_df)` that is extended to:
   - Allow the user to request top-N recommendations.
-  - Incorporating lift to break ties between recommendations.
-  - Comparing your recommender’s output to a naïve baseline (e.g., always recommend top-selling products).
-  - Briefly discuss: When would association rule recommenders fail in real businesses?
+  - Incorporate lift to break ties between recommendations.
+  - Compare your recommender’s output to a naïve baseline (e.g., always recommend top-selling products).
+  - Briefly discuss: When would association rule recommenders fail in a businesses?
 
 ### Deliverables
 
@@ -113,25 +122,3 @@ You are working as a data analyst for a retail store. Using the association rule
 **Note 1:** The real challenge is not building the function—it is deciding which rules actually matter for the business. A good analyst filters the noise, questions misleading correlations, and translates data into profitable actions.
 
 **Note 2:** The sophistication of the recommender is not measured by code complexity, but by how well it handles real-world edge cases—like sparse data, missing rules, and ambiguous ties.
-
-## Video Demonstration
-
-Submit the link to a short video (not more than 4 minutes) demonstrating the topic modelling and the sentiment analysis.
-Also include (in the same video) the user interface hosted on hugging face or streamlit.
-
-| **Key**                             | **Value** |
-|:------------------------------------|:----------|
-| **Link to the video:**              |           |
-| **Link to the hosted application:** |           |
-
-
-## Grading Approach
-
-| Component                            | Weight | Description                                                       |
-|:-------------------------------------|:-------|:------------------------------------------------------------------|
-| **Data Preprocessing & Analysis**    | 20%    | Cleaning, preprocessing, and justification of chosen methods.     |
-| **Topic Modelling**                  | 20%    | Correctness, interpretability, and coherence of topics.           |
-| **Sentiment Analysis**               | 20%    | Appropriate model choice and quality of sentiment classification. |
-| **Interface Design & Functionality** | 20%    | Usability, interactivity, and deployment success.                 |
-| **Interpretation & Recommendation**  | 10%    | Logical, evidence-based, and actionable insights.                 |
-| **Presentation (Video & Clarity)**   | 10%    | Clarity, professionalism, and demonstration of understanding.     |
