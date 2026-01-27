@@ -46,13 +46,12 @@
 │   ├── dev.lock.txt
 │   ├── dev.txt
 │   └── prod.txt
-├── requirements.txt
 ├── rule
 │   ├── top_rules_7a.csv
 │   └── top_rules_7b.csv
 └── setup_instructions.md
 
-7 directories, 24 files
+7 directories, 23 files
 ```
 
 ## Setup Instructions
@@ -63,9 +62,9 @@
 
 Refer to the files below for more details:
 
-1. [Clustering using K-Means](6_kmeans_clustering.ipynb)
-2. [Association Rule Learning using Apriori and a simple dataset](7a_association_rule_learning.ipynb)
-3. [Association Rule Learning using Apriori and a real-world dataset](7b_association_rule_learning.ipynb)
+1. [6_kmeans_clustering.ipynb](6_kmeans_clustering.ipynb): Clustering using K-Means
+2. [7a_association_rule_learning.ipynb](7a_association_rule_learning.ipynb): Association Rule Learning using Apriori and a simple dataset
+3. [7b_association_rule_learning.ipynb](7b_association_rule_learning.ipynb): Association Rule Learning using Apriori and a real-world dataset
 
 ## Lab Submissions Instructions
 
