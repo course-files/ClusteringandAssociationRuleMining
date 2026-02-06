@@ -4,7 +4,7 @@
 |:-----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Course Codes** | BBT 4206 and BFS 4102                                                                                                                                                                                                                                                                                        |
 | **Course Names** | BBT 4206: Business Intelligence II (Week 1-3 of 13) and<br/>BFS 4102: Advanced Business Data Analytics (Week 4-6 of 13)                                                                                                                                                                                      |
-| **Semester**     | August to November 2025                                                                                                                                                                                                                                                                                      |
+| **Semester**     | January to April 2026                                                                                                                                                                                                                                                                                      |
 | **Lecturer**     | Allan Omondi                                                                                                                                                                                                                                                                                                 |
 | **Contact**      | aomondi@strathmore.edu                                                                                                                                                                                                                                                                                       |
 | **Note**         | The lecture contains both theory and practice.<br/>This notebook forms part of the practice.<br/>It is intended for educational purposes only.<br/>Recommended citation: [BibTex](https://raw.githubusercontent.com/course-files/ClusteringandAssociationRuleMining/refs/heads/main/RecommendedCitation.bib) |
@@ -56,7 +56,7 @@
 
 ## Setup Instructions
 
-- [Setup Instructions](setup_instructions.md)
+- [Setup Instructions](./admin_instructions/setup_instructions.md)
 
 ## Lab Manual
 
@@ -69,3 +69,7 @@ Refer to the files below for more details:
 ## Lab Submissions Instructions
 
 - [lab_submission_instructions.md](lab_submission_instructions.md)
+
+## Cleanup Instructions (to be done after submitting the lab)
+
+- [Cleanup Instructions](/admin_instructions/cleanup_instructions.md)

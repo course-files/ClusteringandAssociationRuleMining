@@ -1,67 +1,66 @@
 # Lab Submission Instructions
 
----
-
-## Student Details
+## Student Details and Individual Member Contributions
 
 **Name of the team on GitHub Classroom:**
 
-**Team Member Contributions:**
+**Member 1:**
 
-**Member 1**
+| **Details**                                                                                                                           | **Comment** |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| **Student ID**                                                                                                                        |             |
+| **Name**                                                                                                                              |             |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+**Member 2:**
 
-**Member 2**
+| **Details**                                                                                                                           | **Comment** |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| **Student ID**                                                                                                                        |             |
+| **Name**                                                                                                                              |             |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+**Member 3:**
 
-**Member 3**
+| **Details**                                                                                                                           | **Comment** |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| **Student ID**                                                                                                                        |             |
+| **Name**                                                                                                                              |             |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+**Member 4:**
 
-**Member 4**
+| **Details**                                                                                                                           | **Comment** |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| **Student ID**                                                                                                                        |             |
+| **Name**                                                                                                                              |             |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+**Member 5:**
 
-**Member 5**
+| **Details**                                                                                                                           | **Comment** |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| **Student ID**                                                                                                                        |             |
+| **Name**                                                                                                                              |             |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+## Chosen Level of Difficulty
 
-## Level of Difficulty and Video Demonstration
+**Specify the chosen level of difficulty** (baseline, intermediate, or advanced):
 
-Submit the link to a short video (not more than 4 minutes) demonstrating your solution.
+## Video Demonstration
 
-| **Key**                                       | **Value** |
-|:----------------------------------------------|:----------|
-| **Link to the video:**                        |           |
-| **Level of Difficulty Chosen:**              |           |
+Submit the link to a short video (not more than 5 minutes) demonstrating your solution. Please ensure that the lecturer has rights to view the video.
+
+Note that you are required to submit the link to the video and NOT the video itself. The video should NOT be uploaded to your repository—that would be a misuse of GitHub.
+
+**Link to the video:**
 
 ## Scenario
 
 Create new notebooks (**start from scratch**) and place them in the `lab_submission` folder for all parts of this assignment.
 
-### Part 1: Clustering
+## Part 1: Clustering
 
 1. Provide the code to download the `'./data/mall_customers_with_clusters.csv'` file, which contains the original dataset with an additional column for the cluster labels assigned by the K-Means algorithm. This code should work in Google Colab.
 2. Provide the code to train a Support Vector Machine (SVM) model using the `X` and `y` variables, where `X` is the feature matrix and `y` is the target variable (the cluster labels). The SVM model should be trained to predict the cluster labels based on the features.

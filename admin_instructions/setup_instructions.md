@@ -16,9 +16,14 @@
     python3 --version
     ```
 
-    - If Python is not installed (i.e., you do not see any version number), 
-   then download and install it from the official website:
-   <https://www.python.org/downloads/>
+    or (for Windows - Replace **Python312** (Python version 3.12) with the Python version you want to use)
+
+    ```shell
+    '/C/Python312/python.exe' --version
+    ```
+
+    - If Python is not installed (i.e., you do not see any version number),
+   then download and install it using [this tutorial](install_python.md).
 
 2. Create and activate a **virtual environment** to keep your project
 dependencies isolated from the system Python packages.
@@ -55,11 +60,45 @@ dependencies isolated from the system Python packages.
      site-packages.
 
    - In the root of your project folder, run the following command to create
-   the virtual environment:
+   the virtual environment. This will use the global python version.
 
     ```shell
     python -m venv .venv
     ```
+
+   - If you want to use a specific python version to create your virtual environment, then use the python interpreter located in the correct path.
+
+     - Example to create a virtual environment that will use Python Version 3.12 in Windows:
+
+      ```shell
+      /C/Python312/python.exe -m venv .venv
+      ```
+
+     - Example to create a virtual environment that will use Python Version 3.14 in Windows:
+
+      ```shell
+      /C/Python314/python.exe -m venv .venv
+      ```
+
+     - Example to create a virtual environment that will use Python Version 3.12.10 in Linux:
+
+      ```shell
+      mkdir ~/Documents/project_folder
+      cd ~/Documents/project_folder
+      pyenv local 3.12.10
+      python --version
+      python -m venv .venv
+      ```
+
+     - Example to create a virtual environment that will use Python Version 3.14.3 in Linux:
+
+      ```shell
+      mkdir ~/Documents/project_folder
+      cd ~/Documents/project_folder
+      pyenv local 3.14.3
+      python --version
+      python -m venv .venv
+      ```
 
    **Part B**
 
