@@ -27,16 +27,14 @@
 ├── LICENSE
 ├── README.md
 ├── RecommendedCitation.bib
-├── assets
-│   └── images
-│       ├── activate_venv_pycharm.png
-│       └── activate_venv_vscode.png
+├── admin_instructions
+│   ├── cleanup_instructions.md
+│   ├── install_python_instructions.md
+│   └── setup_instructions.md
 ├── data
 │   ├── groceries.csv
 │   ├── mall_customers.csv
 │   └── mall_customers_with_clusters.csv
-├── lab_submission
-│   └── start_here
 ├── lab_submission_instructions.md
 ├── requirements
 │   ├── base.txt
@@ -46,17 +44,16 @@
 │   ├── dev.lock.txt
 │   ├── dev.txt
 │   └── prod.txt
-├── rule
-│   ├── top_rules_7a.csv
-│   └── top_rules_7b.csv
-└── setup_instructions.md
+└── rule
+    ├── top_rules_7a.csv
+    └── top_rules_7b.csv
 
-7 directories, 23 files
+5 directories, 22 files
 ```
 
 ## Setup Instructions
 
-- [Setup Instructions](./admin_instructions/setup_instructions.md)
+- [Setup Instructions](./admin_instructions/instructions_for_project_setup.md)
 
 ## Lab Manual
 
@@ -72,4 +69,4 @@ Refer to the files below for more details:
 
 ## Cleanup Instructions (to be done after submitting the lab)
 
-- [Cleanup Instructions](/admin_instructions/cleanup_instructions.md)
+- [Cleanup Instructions](/admin_instructions/instructions_for_postlab_cleanup.md)
