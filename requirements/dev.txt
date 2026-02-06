@@ -6,6 +6,7 @@ pytest-cov
 black
 flake8
 ipython
+ipykernel
 jupyter
 seaborn
 python-dotenv
