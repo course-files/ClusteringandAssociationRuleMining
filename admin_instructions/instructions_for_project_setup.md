@@ -23,7 +23,7 @@
     ```
 
     - If Python is not installed (i.e., you do not see any version number),
-   then download and install it using [this tutorial](install_python.md).
+   then refer to [instructions_for_python_installation.md](instructions_for_python_installation.md) for a guide on installing multiple python versions for the labs.
 
 2. Create and activate a **virtual environment** to keep your project
 dependencies isolated from the system Python packages.
@@ -230,7 +230,7 @@ dependencies isolated from the system Python packages.
 ### Creating a Project Structure using `tree`
 
 1. Install MSYS2 (for Windows) if not already installed.
-2. Download link: <https://www.msys2.org/docs/installer/>
+2. Download link: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases)
 3. Navigate to the project's root folder using the MSYS2 terminal.
 
 ```shell
