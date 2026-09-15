@@ -93,11 +93,6 @@ the specific student's own (A+B) combined score.
 | Rated as a below-expectation contributor by most peers (2-3) | 0.90       |
 | Rated as a non-contributor by a majority of peers (1)        | 0.75       |
 
-If peer ratings for a student are sharply inconsistent (e.g., some rate them
-highly, others rate them as a non-contributor), do not average blindly — this
-is a signal to follow up with the group directly before finalizing that
-student's multiplier, rather than a mechanical case.
-
 ---
 
 **Notes:**
