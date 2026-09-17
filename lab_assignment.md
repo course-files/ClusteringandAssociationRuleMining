@@ -22,6 +22,16 @@ stage needs to earn full marks.
 | [`retail_store_performance.csv`](./data/retail_store_performance.csv)                 | Store performance (revenue, foot traffic, staffing, size)           | **Stores**, not people | A                           |
 | [`agricultural_cooperative_farmers.csv`](./data/agricultural_cooperative_farmers.csv) | Farmer segmentation for a cooperative (farm size, yield, income)    | Farmers                | D                           |
 
+## Assigned Synthetic Datasets for Association Rule Mining
+
+| Dataset                                                                   | Context                                       | Transactions | Items | Group                       |
+|---------------------------------------------------------------------------|-----------------------------------------------|-------------:|------:|-----------------------------|
+| [`grocery_basket_transactions.csv`](data/grocery_basket_transactions.csv) | Supermarket purchases                         |        4,000 |    20 | *Not assigned to any group* |
+| [`streaming_series_watched.csv`](data/streaming_series_watched.csv)       | TV series watched per viewing session         |        3,500 |    15 | C                           |
+| [`food_delivery_orders.csv`](data/food_delivery_orders.csv)               | Restaurant delivery app orders                |        3,800 |    15 | D                           |
+| [`music_streaming_sessions.csv`](data/music_streaming_sessions.csv)       | Tracks played together in a listening session |        4,200 |    16 | A                           |
+| [`pharmacy_purchases.csv`](data/pharmacy_purchases.csv)                   | Drugstore purchases                           |        3,600 |    17 | B                           |
+
 **Beyond the notebook**, every group member should individually complete:
 - A 2-3-minute one-on-one conversation (defense) where you will be asked
   **only one** random question related to a decision that was made in your
