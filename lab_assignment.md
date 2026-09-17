@@ -10,7 +10,7 @@ notebook with different column names, i.e. you have to customize your analysis.*
 Each dataset has its own missingness patterns, correlated features, and target
 shape. Your decisions should reflect that. Refer to
 [the clustering rubric](./lab_assignment_grading_rubric.md) and [the association
-rule mining](./lab_assignment_arm_grading_rubric.md) rubric for what each
+rule mining rubric](./lab_assignment_arm_grading_rubric.md) for what each
 stage needs to earn full marks.
 
 ## Assigned Synthetic Datasets for Clustering
